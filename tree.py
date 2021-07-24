@@ -24,8 +24,6 @@ Tree Traversal
 def addSeparation():
     print("---------------------------------------------------------")
 
-
-
 def preorderTraversal(root):
     if root is not None:
         print(root.data)
