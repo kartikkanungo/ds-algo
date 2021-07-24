@@ -60,14 +60,12 @@ def callInorderTraversal(root):
     print("Left Root Right ")
     inorderTraversal(root)
 
-
 def doDFS(root):
     addSeparation()
     print("Depth First")
     callPreorderTraversal(root)
     callPostorderTraversal(root)
     callInorderTraversal(root)
-
 
 def bfs(root):
     if root is None:
@@ -84,12 +82,9 @@ def bfs(root):
         if node.right is not None:
             q.append(node.right)
 
-
-
 def callBFSTraversal(root):
     addSeparation()
     bfs(root)
-
 
 def doBFS(root):
     addSeparation()
@@ -97,7 +92,6 @@ def doBFS(root):
     print("OR")
     print("Level Order Traversal")
     callBFSTraversal(root)
-
 
 def traverseTree(root):
     addSeparation()
